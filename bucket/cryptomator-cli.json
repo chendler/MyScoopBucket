@@ -1,6 +1,6 @@
 {
-    "hash": "",
-    "homepage": "",
+    "hash": "1D33841928F89669A2BDCC1A6E00CEB9B2B27EC6683463751ED1C708E781A99C",
+    "homepage": "https://github.com/cryptomator/cli",
     "depends": "",
     "extract_dir": "",
     "url": "https://github.com/cryptomator/cli/releases/download/0.6.0-beta1/cryptomator-cli-0.6.0-beta1-win-x64.zip",
