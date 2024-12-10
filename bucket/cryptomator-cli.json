@@ -3,7 +3,11 @@
     "homepage": "https://github.com/cryptomator/cli",
     "description": "Minimal command-line application that unlocks a single vault of vault format 8 and mounts it into the system.",
     "url": "https://github.com/cryptomator/cli/releases/download/0.6.0-beta1/cryptomator-cli-0.6.0-beta1-win-x64.zip",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/cryptomator/cli/releases",
+        "jsonpath": "$[0].name",
+        "regex": ".*"
+    }
     "extract_dir": "cryptomator-cli",
     "license": {
         "identifier": "GNU General Public License v3.0",
